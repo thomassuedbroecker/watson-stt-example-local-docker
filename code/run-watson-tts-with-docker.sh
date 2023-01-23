@@ -5,8 +5,8 @@ source ./.env
 
 # Information on c
 IMAGE_REGISTRY=${IMAGE_REGISTRY:-"cp.icr.io/cp/ai"}
-RUNTIME_CONTAINER_NAME=custom-watson-tts-runtime
-CUSTOM_TTS_IMAGE=custom-watson-tts-image
+RUNTIME_CONTAINER_NAME=custom-watson-stt-runtime
+CUSTOM_STT_IMAGE=custom-watson-stt-image
 TAG=1.0.0
 
 # **********************************************************************************
@@ -30,7 +30,7 @@ function buildCustomContainer () {
     echo "# Connect to IBM Cloud Container Image Registry: $IMAGE_REGISTRY"
     echo "# ******"
     echo ""
-    docker build . -t "$CUSTOM_TTS_IMAGE:$TAG"
+    docker build . -t "$CUSTOM_STT_IMAGE:$TAG"
 }
 
 function runTTS () {
@@ -60,5 +60,5 @@ connectToIBMContainerRegistry
 
 buildCustomContainer
 
-runTTS
+runSTT
 
