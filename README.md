@@ -9,7 +9,7 @@ git clone https://github.com/thomassuedbroecker/watson-tts-example-local-docker
 cd watson-tts-example-local-docker/code
 ```
 
-### Step 2:  Set your `IBM_ENTITLEMENT_KEY` in the `.env` file
+### Step 2: Set your `IBM_ENTITLEMENT_KEY` in the `.env` file
 
 ```sh
 cat .env_template > .env
