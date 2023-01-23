@@ -1,12 +1,12 @@
-# Run `Watson Text to Speech` for Embed on your local computer with Docker
+# Run `Watson Speech to Text` for Embed on your local computer with Docker
 
 This is an example about, how to use `Watson Text to Speech` based on the official example documentation:[`IBM Watson Libraries for Embed`](https://www.ibm.com/docs/en/watson-libraries?topic=rc-run-docker-run).
 
 ### Step 1: Clone the example project to your local computer
 
 ```sh
-git clone https://github.com/thomassuedbroecker/watson-tts-example-local-docker
-cd watson-tts-example-local-docker/code
+git clone https://github.com/thomassuedbroecker/watson-stt-example-local-docker
+cd watson-stt-example-local-docker/code
 ```
 
 ### Step 2: Set your `IBM_ENTITLEMENT_KEY` in the `.env` file
@@ -25,7 +25,7 @@ IBMCLOUD_ENTITLEMENT_KEY="YOUR_KEY"
 ### Step 3: Execute the `run-watson-tts-with-docker.sh` bash script
 
 ```sh
-sh run-watson-tts-with-docker.sh
+sh run-watson-stt-with-docker.sh
 ```
 
 * Example output:
@@ -59,11 +59,11 @@ IBM_ENTITLEMENT_KEY: XXXX
 ...
 
 # ******
-# Run TTS
+# Run STT
 # ******
 
 # Run a custom container based on runtime and imported models
-# custom-watson-tts-image:1.0.0
+# custom-watson-stt-image:1.0.0
 
 "INFO: Will download the following models defined in group default in catalog b'var/catalog.json' : ['en-US_Multimedia', 'es-LA_Telephony']"
 "INFO: All 6 models files ext
