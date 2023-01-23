@@ -1,6 +1,6 @@
 # Run `Watson Speech to Text` for Embed on your local computer with Docker
 
-This is an example about, how to use `Watson Text to Speech` based on the official example documentation:[`IBM Watson Libraries for Embed`](https://www.ibm.com/docs/en/watson-libraries?topic=rc-run-docker-run).
+This is an example about, how to use `Watson Speech to Text` based on the official example documentation:[`IBM Watson Libraries for Embed`](https://www.ibm.com/docs/en/watson-libraries?topic=rc-run-docker-run).
 
 ### Step 1: Clone the example project to your local computer
 
