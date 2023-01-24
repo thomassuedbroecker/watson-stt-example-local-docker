@@ -22,7 +22,7 @@ Edit the `.env` file.
 IBMCLOUD_ENTITLEMENT_KEY="YOUR_KEY"
 ```
 
-### Step 3: Execute the `run-watson-tts-with-docker.sh` bash script
+### Step 3: Execute the `run-watson-stt-with-docker.sh` bash script
 
 ```sh
 sh run-watson-stt-with-docker.sh
@@ -120,7 +120,7 @@ curl "https://github.com/watson-developer-cloud/doc-tutorial-downloads/raw/maste
   -sLo example.flac
 ```
 
-### Step 6: Verfiy the audio
+### Step 6: Verify the audio
 
 ```sh
 curl "http://localhost:1080/speech-to-text/api/v1/recognize" \
