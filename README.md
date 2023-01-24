@@ -2,6 +2,8 @@
 
 This is an example about, how to use `Watson Speech to Text` based on the official example documentation:[`IBM Watson Libraries for Embed`](https://www.ibm.com/docs/en/watson-libraries?topic=rc-run-docker-run).
 
+> _Note:_[Watson Speech to Text API documentation](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-about)
+
 ### Step 1: Clone the example project to your local computer
 
 ```sh
